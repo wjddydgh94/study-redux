@@ -9,7 +9,7 @@ function CounterContainer() {
     diff: state.counter.diff,
   }));
   const dispatch = useDispatch();
-
+  // 업데이트 테스트
   const onIncrease = () => dispatch(increase());
   const onDecrease = () => dispatch(decrease());
   const onSetDiff = (diff) => dispatch(setDiff(diff));
